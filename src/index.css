@@ -36,6 +36,7 @@ body {
   font-size: 22px;
   font-family: 'Cookie', cursive;
   transition: .7s;
+  cursor: pointer;
 }
 .Search-box > button:hover{
   color: aliceblue;
@@ -146,12 +147,23 @@ body {
 .personal_info{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 5%;
 }
 .personal_info > div{
   margin: 20px;
   font-size: 22px;
   color: #fff;
+}
+.personal > .image{
+  display: block;
+  margin: 10px auto;
+  width: 20%;
+  height: 20%;
+}
+.circular{
+  border-radius: 50%;
 }
 @media screen and (max-width: 600px){
   .bar-box{

@@ -27,13 +27,6 @@ const Profile = () => {
           console.log("here errro");
           setisError(true);
         }
-        // console.log(profileJson);
-    
-
-    //console.log(repoJson);
-
-   
-    //console.log(profileJson,repositories,username );
   };
 
   return (
