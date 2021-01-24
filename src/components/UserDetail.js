@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PersonalDetail from './PersonalDetail';
 import RepoDetail from './RepoDetail';
 const UserDetail = (props) => {
-    console.log(props);
+    //console.log(props);
     const profile_info = props.profile_info;
     const repo_info = props.repo_info;
     const [shown_info , setShowInfo] = useState(true); 
