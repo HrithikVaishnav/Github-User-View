@@ -21,6 +21,10 @@ const Profile = () => {
             setData(profileJson);
             setRepositories(repoJson);
             setisShow(true);
+            setisError(false);
+          }
+          else {
+            setisError(true);
           }
         }
         catch{
